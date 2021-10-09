@@ -1,4 +1,45 @@
 <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Google</title>
+        <style type="text/css">
+            section{
+                display: flex; 
+                justify-content:center; 
+                align-items:center;
+            }
+            header {
+                position: absolute;
+                 top: 0;
+                  width: 100%; 
+                  display: flex; 
+                  justify-content: flex-end; 
+                  padding: 20px;
+            }
+            ul{
+                display: flex;
+                 justify-content:center;
+                 align-items: center; 
+            }
+            li{
+                margin-left: 20px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <section >
+            <header>
+                <ul >
+                    <li> <a href="#">Gmail</a></li>
+                    <li > <a href="#">Images</a></li>
+                    <li ><button>Sign In</button></li>
+                </ul>
+            </header>
+        </section>
+        <center>
 <html>
 <head>
     <meta charset="utf-8">
@@ -94,7 +135,7 @@ footer  {
   bottom: 0;
   padding-bottom: 0;
   width: 100%;
-  
+
 }
 
 footer ul li {
@@ -119,7 +160,7 @@ footer ul a:hover {
 
     </style>
   </head>
-  
+
   <body>
     <header>
       <nav>
@@ -134,12 +175,28 @@ footer ul a:hover {
         <h1 style = "font-size:70px; margin-top:200px;">
             <span style="color:blue">G</span>
             <span style="color:red">o</span>
-            <span style="color:yellow">o</span>
-            <span style="color:blue">g</span>
+@@ -48,20 +139,33 @@ <h1 style = "font-size:70px; margin-top:200px;">
             <span style="color:green">l</span>
             <span style="color:red">e</span>
         </h1>
-    
+
+        <div class="SearchBox">
+        <input type="search" class="Search" style="height: 40px; border-radius: 30px;" size="60" placeholder="Search Google or type a URL" ><br/>
+          </div>
+           <br/>   
+        <br/>
+
+        <div class="buttons"> 
+            <button> Google Search</button>
+            <button> I'm Feeling Lucky </button>
+        </div>
+
+        </center>
+
+    </body>
+
+</html>
+
     <!-- FORM SEARCH -->  
     <div class="form">  
       <form>
@@ -147,13 +204,13 @@ footer ul a:hover {
         <input type="text" id="form-search" placeholder="Search Google or type URL">
       </form>
     </div>  
-    
+
     <!-- BUTTONS -->
     <div class= "buttons">  
       <input type="submit" value="Google Search" id="google_search">
       <input type="submit" value="I'm Feeling Lucky" id="im_feeling_lucky">
     </div>
-      
+
     <!-- FOOTER -->
     <footer>
         <ul class="footer-left">
